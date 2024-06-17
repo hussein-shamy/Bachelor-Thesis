@@ -1,0 +1,120 @@
+\setstretch{1}
+\setlength{\parskip}{\baselineskip}
+
+%\chapter{A New Era for Network Management} 
+This chapter provides a great overview of the development of mobile network generations by illuminating the complexities of network management procedures and delving into the idea of automation in network management along with its taxonomy.
+\section{Evolution of Mobile Networks} 
+In this section, we will discuss the significant and transformative changes in mobile networks, extending from the earliest generations to the most recent ones.
+\subsection{Voice and Low-Volume Data Communications}
+Different generations of mobile communication systems are distinguished by technological and functional developments. The first generation (1G), which was developed in the 1980s and was focused on providing voice services, was only widely adopted to a limited extent. The Global System for Mobile Communications (GSM), which spearheaded the development of the second generation (2G), was created by the 3GPP and deployed in Europe in the early 1990s \cite{bibid}[1], providing voice and low-volume data services. The Universal Mobile Communications System (UMTS), which served as a representative of the third generation (3G), was developed in the late 1990s and early 2000s with the goal of enhancing data services.\\
+The evolution of mobile networks can be summarized as follows: In contrast to 1G analogue systems, 2G GSM offered improved capacity and enabled extensive voice communication through a circuit-switched core network, supporting roaming and providing more capacity compared to 1G analog systems. From 2000 onwards, GPRS, EDGE, and 3GPP Rel. 99 (3G) introduced both circuit-switched voice services and packet-switched data services. A fully IP-based system with a flat, scalable architecture designed for high-throughput mobile broadband services was introduced with 3GPP Rel. 8 and 3GPP Rel. 10 (4G), which represented a significant design shift. The IP Multimedia Subsystem (IMS), which provided a control architecture based on Session Initiation Protocol (SIP), enabled the packet switching of all 4G services. 
+\begin{table}[!h]
+	\centering
+	\caption{Overview of mobile network generations and 3GPP releases.}
+	\label{tab: tab1}
+
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Network Generation} & \textbf{Year} & \textbf{First 3GPP release} \\ \hline
+		2G GSM                      & 1992          & GSM Phase 1                 \\ \hline
+		'2.5G' GPRS                 & 1997          & GSM Phase 2+/Rel.97         \\ \hline
+		3G UMTS                     & 2000          & Rel.99                      \\ \hline
+		'3.5G' HSDPA                & 2002          & Rel.5                       \\ \hline
+		LTE                         & 2008          & Rel.8                       \\ \hline
+		4G LTE-A                    & 2011          & Rel.10                      \\ \hline
+		'4.5G' LTE-A Pre            & 2016          & Rel.13                      \\ \hline
+		5G new radio                & 2018          & Rel.15                      \\ \hline
+	\end{tabular}
+\end{table}
+\subsection{Mobile Broadband Communications}
+The increasing demand for faster data and throughput was the primary driver behind the development of 4G mobile networks. For 4G networks, the International Mobile Telecommunications-Advanced (IMT-Advanced) report, issued by the ITU-R in 2008, established specifications such as a nominal downlink throughput of 100 Mbps for mobile users, improved spectral efficiency, and scalable channel bandwidth.\\
+A high-quality service for a variety of applications, including mobile broadband access, video chat, mobile TV, and new services like high-definition television (HDTV), was the goal of 4G systems. Delivering faster data rates and meeting the requirements of new and advanced services were the main priorities.\\
+\begin{table}[!h]
+	\centering
+	\caption{The evolution of telecommunication technologies.}
+	\label{tab: tab2}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\textbf{1G} & \begin{tabular}[c]{@{}c@{}}1st Generation\\ wireless network\end{tabular}  & \begin{tabular}[c]{@{}c@{}}Basic voice service\\ Analog-based protocols\end{tabular}                                                             & 2.4 kbps    \\ \hline
+		\textbf{2G} & \begin{tabular}[c]{@{}c@{}}2nd Generation \\ wireless network\end{tabular} & \begin{tabular}[c]{@{}c@{}}Designed for voice\\ Improved coverage and capacity\\ First digital standards (GSM, CDMA)\end{tabular}                & 64 kbps     \\ \hline
+		\textbf{3G} & \begin{tabular}[c]{@{}c@{}}3rd Generation\\ wireless network\end{tabular}  & \begin{tabular}[c]{@{}c@{}}Designed for voice with some data consideration \\ (multimedia, text, internet)\\ First mobile broadband\end{tabular} & 2,000 kbps  \\ \hline
+		\textbf{4G} & \begin{tabular}[c]{@{}c@{}}4th Generation\\ wireless network\end{tabular}  & \begin{tabular}[c]{@{}c@{}}Designed primarily for data\\ IP-based protocols (LTE)\\ True mobile broadband\end{tabular}                           & 100,00 kbps \\ \hline
+	\end{tabular}
+\end{table}
+\subsection{Cloud-Native Networks}
+With a focus on cloud services, network architecture underwent a major review prompted by the introduction of 5G. Traditional network function reference points were supplemented with a service-based interface (SBI) design in the 5G architecture, which broke down the 4G core network functionality into smaller functions.\\
+\begin{figure}[!h]
+	\includegraphics [width=1.0\textwidth]{Figures/Telecommunications networks from traditional to cloud-native}
+	\centering
+	\caption{Telecommunications networks from traditional to cloud-native.} 
+	\label{fig:fig1}
+\end{figure}
+
+\textbf{IP Multimedia Subsystem (IMS)}: The IP Multimedia Subsystem (IMS) is a standardized architecture for delivering multimedia services over IP networks. It is a framework that enables the integration of various communication services, such as voice, video, messaging, and data, into a single IP-based network. IMS provides the necessary infrastructure and protocols to support these services, ensuring interoperability between different networks and devices.\\
+\textbf{Session Initiation Protocol (SIP)}: a signaling protocol used for establishing, modifying, and terminating communication sessions in IP-based networks. It is an application-layer protocol that is widely used for initiating voice and video calls, multimedia conferences, instant messaging, and other real-time communication services over the Internet Protocol (IP) network.\\
+\textbf{Service-based Interface (SBI)}: refers to an architectural concept in the context of network function virtualization (NFV) and software-defined networking (SDN). It is a standardized interface that enables communication and interaction between different components or modules within an NFV/SDN framework.
+\subsection{Multi-Service Mobile Communications}
+The fifth generation of mobile networks plays a crucial role in the digital transformation of both business and daily life, fostering connectivity and enabling a connected society. Key sectors such as education, healthcare, and government services, as well as industries like smart grids, intelligent transport systems, and industrial automation, significantly rely on the capabilities of a flexible mobile network infrastructure.\\
+\begin{figure}[!h]
+	\includegraphics [width=1.2\textwidth]{Figures/5G Network Slicing}
+	\centering
+	\caption{5G Network Slicing.} 
+	\label{fig:fig2}
+\end{figure}
+
+The characteristics and requirements of mobile traffic become highly diverse and distinct from traditional human-centric traffic as these regions incorporate machine-type devices into the network. In order to provide service-specific functionality, 5G networks must deliver high performance. A platform with a shared infrastructure that can support multiple communication services is required to achieve cost-effectiveness. This is where the concept of "network slicing" becomes crucial since it enables 5G networks to provide multi-service and multi-tenant capable systems.
+
+\section{Understanding Communication Network Complexity}
+In a communication network, data is transmitted as packet data from one device (A) to another device (B), which can be mobile or fixed. The network consists of various subparts with devices and network elements (NEs) of different sizes and capacities. The access part has many small-sized network elements serving a limited number of user terminals, while the core part has a few large-sized network elements supporting thousands of users or sessions. The network's complexity arises from the multitude of network elements and their interdependencies. Managing this complexity falls under network management, requiring innovative approaches to ensure operational functionality. The following sections explore the sources of complexity and their implications for network management.\\
+In general, there are three main sources of complexity in communication networks:
+\begin{enumerate}
+	\item \textbf{Network protocol stack in each node}: Each node in the network has its own complex interactions and functions. These interactions connect network routing, higher-layer applications, transport dimensioning, network partitioning, and network caching.
+	\item \textbf{Scale}: Scale refers to the number of nodes in the network and the level of interconnections between them. It is a measure of the network's size and density, indicating the complexity of its structure.
+	\item \textbf{Connectivity}: It measures the distribution, centralization, and homogeneity of connections within the network. The connectivity among nodes is essential for maximizing the network's value. Metrics such as node and edge centrality \cite{bibid}[2], including edge betweenness, radius, and closeness, are used to describe the complexity of connectivity \cite{bibid}[3].
+\end{enumerate}
+These sources of complexity impact network management and require careful consideration and analysis to ensure efficient and effective operation of communication networks.
+\subsection{Enabling Flexibility in 5G Network Management}
+In order to meet the dynamic requirements of 5G networks, the deployment and configuration of network functions and services need to be flexible. This necessitates effective communication between orchestrating entities and managed entities through multiple interfaces. Efficient network management algorithms, particularly for self-organization and self-optimization, rely on seamless communication between various management functions and network elements. However, the integration of these components is often challenging due to incompatible interfaces. \\
+\section{Basic Principles of Network Management}
+Network management plays a crucial role in the overall operations, administration, and maintenance (OAM) of a network. It encompasses a range of functions and procedures necessary for establishing and maintaining connections within predefined limits \cite{bibid}[4]. The International Telecommunication Union - Telecommunication Standardization Sector (ITU-T) defines a Telecommunication Management Network (TMN) as the set of functions and procedures used to manage a telecommunication network \cite{bibid}[5].
+ITU-T distinguishes between Telecommunications Managed Areas, which encompass resources involved in one or more telecommunications services and are managed as a whole, and TMN Management Services, which refer to the integrated set of processes within a company to achieve business and management objectives.
+In order to support these objectives, network management is categorized into five main functional areas known as FCAPS, which stand for Fault, Configuration, Accounting, Performance, and Security \cite{bibid}[4]. These areas encompass various management services aimed at ensuring quality for telecommunications service customers and operational productivity \cite{bibid}[6].
+\subsection{The FCAPS Framework}
+\begin{itemize}
+	\item \textbf{Fault Management}: Includes functions for detecting, isolating, and correcting abnormal operations in the telecommunication network and its environment.
+	\item \textbf{Configuration Management}: Involves controlling, identifying, and collecting data from network elements (NEs) and configuring aspects such as configuration files, inventory, and software management.
+	\item \textbf{Accounting Management}: Enables the measurement of network service and resource usage, determining costs for the service provider and charges to customers, and supporting pricing decisions for services.
+	\item \textbf{Performance Management}: Comprises functions for gathering and analyzing statistical data, evaluating, and reporting on the behavior of telecommunication equipment and network elements, and maintaining overall performance at a defined level.
+	\item \textbf{Security Management}: Encompasses functions related to authentication, access control, data confidentiality, data integrity, and non-repudiation to ensure secure communications between systems, customers, and internal users.
+\end{itemize}
+\section{Taxonomy for Cognitive Autonomous Networks}
+Categorizing cognitive autonomous networks as following:
+\subsection{Automation, Autonomy, Self-Organization, and Cognition}
+\textbf{Automation} means an entity, E, is configured and triggered to accomplish a task without external intervention while using some functionality for which the mechanism of accomplishing the task is not of interest. Correspondingly, even when the mechanism is created by the external entity, entity E is still considered automated even if the external entity intervenes during execution of that mechanism.\\
+\textbf{Autonomy} implies that the entity acts on its own over multiple related or unrelated tasks and where the mechanisms used to accomplish the tasks are of no interest.\\
+\textbf{Self-Organization} implies that an entity is capable of selecting actions without external control as triggered by a signal which may be external or otherwise. The internal mechanisms of such an entity are of no interest to the owner or user of such an entity.\\
+\textbf{Cognitive Entity} is one capable of perceiving a signal and processing it into a data element over which the entity reasons to select an action. It conceptualizes and contextualizes the data element and, logically or arithmetically, relates the data element to other data elements to make inferences about the elements, their relations, and subsequently selects the appropriate action.\\
+
+In the context of networks, cognition refers to the network's ability to reason using various data sources to learn context and make optimal decisions. Cognitive autonomy, on the other hand, implies that the network utilizes its cognition to determine appropriate behavior in different contexts and independently acts accordingly.
+\subsection{Levels of Network Automation}
+Describing the degree of automation in a network is complex due to its multi-dimensional nature.
+
+\begin{itemize}
+	\item \textbf{Automation} is typically evaluated relative to a manually controlled network, where operations personnel make decisions based on network state.
+	\item An automated network may have predefined actions set by the operator that are executed without explicit triggering.
+	\item \textbf{Self-Organization Network (SON)} automates actions and interprets events in different contexts to determine cause-effect relationships.
+	\item An autonomous network can act independently but may not reason based on its environment or make optimal decisions.
+	\item \textbf{Cognitive Network} can reason and make recommendations but may require human approval before executing them.
+	\item SON is closer to an autonomous network, while Cognitive Network Management (CNM) adds cognitive capabilities to SON.
+	\item \textbf{Cognitive Autonomous Network (CAN)} combines cognitive and autonomous abilities to reason, recommend, and independently execute actions.
+	\item CAN requires a broader view of the network and a deeper understanding of operator expectations.
+	\item Cognitive functions in CAN need to perceive insights from a wider range of data, learn larger context spaces, and build comprehensive cause-effect models.
+	\item The CAN framework adds a dynamic brain to Self-x functions in the network.
+\end{itemize}
+Note: "Self-x" refers to self-organizing, self-optimizing, self-configuring, etc., functions within the network.
+\begin{figure}[!h]
+	\includegraphics [width=0.9\textwidth]{Figures/Levels of automy in networks}
+	\centering
+	\caption{Levels of automy in networks.} 
+	\label{fig:fig3}
+\end{figure}

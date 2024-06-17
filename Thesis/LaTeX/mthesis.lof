@@ -1,0 +1,210 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sampling Operation in Time and Frequency Domains\relax }}{4}{figure.caption.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Quantization Operation in Time and Frequency Domains\relax }}{5}{figure.caption.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ideal quantization process: (a) Symbolic representation, (b) Linear model of an ideal quantizer, (c) Ideal input-output curve and (d) quantization error of a 3-bit quantizer, (e) Ideal input-output curve and (f) quantization error of a 1-bit quantizer (comparator)\relax }}{5}{figure.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Quantization Error Probability Density Function (PDF) \relax }}{6}{figure.caption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Quantization Error Power Spectral Density (PSD) \relax }}{6}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Nyquist Rate Sampling Vs Oversampling \relax }}{7}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Quantization noise Power Spectral Density (PDF) for oversampling ADC\relax }}{8}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Feedback System With Two Inputs\relax }}{9}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Basic Modulator Structure\relax }}{10}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces $\Sigma \Delta $ ADC Performance Metrics\relax }}{12}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Single Loop $\Sigma \Delta $ Modulator Model\relax }}{13}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces CIFB Loop Architecture\relax }}{14}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces CIFF Loop Architecture\relax }}{15}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Zero Replacement in CIFB Loop Architecture\relax }}{16}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Zero Replacement in CIFB Loop Architecture\relax }}{17}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Loop filter representation for DT and CT modulators \cite {Ortmanns}. (a) DT modulator; (b) CT modulator\relax }}{19}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Common DAC Impulse Response and Lapalce Transformation. (a) NRZ; (b) RZ; (c) SC \relax }}{19}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cascade of Three Inverters\relax }}{22}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Conceptual Circuit for Stable Ring Amplifier\relax }}{23}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Floating Bias Ring Amplifier\relax }}{24}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Self Biased Ring Amplifier\relax }}{24}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Offset Voltage Choice\relax }}{25}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Ring Amplifier in SC Gain Stage\relax }}{26}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Ring Amplifier in SC Gain Stage\relax }}{27}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Model in The Slewing Phase\relax }}{28}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Stability Regions\relax }}{29}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Auto-zeroing to The Whole Amplifier \cite {Flynn}\relax }}{29}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Auto-zeroing to The Whole Amplifier \cite {Flynn2}\relax }}{30}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Adaptive Slew Rate \cite {ring_process}\relax }}{31}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Adaptive Deadzone \cite {ring_process}\relax }}{31}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Ring Amplifier With an Immune Dead Zone \cite {ring_process}\relax }}{32}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Passive Compensation Technique \cite {passive_comp}\relax }}{33}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Output With and Without Passive Compensation Technique \cite {passive_comp}\relax }}{33}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Using Ring Amplifier to Implement Integrator\relax }}{34}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed CT Ring Amplifier Structure\relax }}{36}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Effect of Ros on Different Parameters\relax }}{38}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Common Mode Feedback Circuit\relax }}{39}{figure.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified Common Mode Feedback Circuit Block Diagram\relax }}{40}{figure.caption.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Single-Ended Version of The Implemented Modulator\relax }}{41}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Amplifier Open Loop Gain And Phase\relax }}{41}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Integrator AC Response\relax }}{42}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Step Response Of The CMFB Circuit\relax }}{43}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Output Spectrum For Input = -2 dBFS\relax }}{44}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces SNDR Versus Input Power\relax }}{44}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modulator Noise Transfer Function (NTF)\relax }}{48}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Poles and Zeros of The NTF\relax }}{49}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces DAC Waveforms\relax }}{50}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Modulator Topology\relax }}{51}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Integrator Implementation\relax }}{52}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Integrator Implementation\relax }}{53}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Effect of Jitter on Different DAC Pulse Shapes\relax }}{53}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Pulse Shapes With Finite Rise Time For Different Sequences\relax }}{54}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Output Spectrum From Simulink Simulation\relax }}{55}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Noise Transfer Functions Over Normalized Frequency\relax }}{57}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Noise Transfer Functions Over Normalized Frequency\relax }}{58}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Effect of Opamp Finite DC Gain on Modulator Performance\relax }}{60}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Modified Continuous-Time Ring-Amplifier Architecture\relax }}{63}{figure.caption.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces First Integrator\relax }}{64}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces First Integrator Loop Gain and Phase\relax }}{65}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces First Integrator CMFB Results\relax }}{65}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Second Integrator\relax }}{66}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Second Integrator Loop Gain and Phase\relax }}{67}{figure.caption.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Second Integrator CMFB Results\relax }}{67}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Third Integrator\relax }}{68}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Third Integrator Loop Gain and Phase\relax }}{69}{figure.caption.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Third Integrator CMFB Results\relax }}{69}{figure.caption.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Summer Circuit\relax }}{71}{figure.caption.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Summer Loop Gain and Phase\relax }}{71}{figure.caption.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Third Integrator CMFB Results\relax }}{72}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Simplifier Quantizer Schematic\relax }}{73}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Simplifier Quantizer Schematic\relax }}{73}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Reference Generation\relax }}{74}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Comparator Circuit (a) Preamplifier (b) Latch\relax }}{75}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Switched Capacitor DAC Schematic\relax }}{76}{figure.caption.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Switched Capacitor DAC During Sampling Phase\relax }}{78}{figure.caption.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Switched Capacitor DAC During $\phi _{2}$ for D = 1\relax }}{78}{figure.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Switched Capacitor DAC During $\phi _{2}$ for DB = 1\relax }}{79}{figure.caption.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Switched Capacitor DAC During $\phi _{2}$ for Z = 1\relax }}{79}{figure.caption.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Non-Overlapping Clock Generation\relax }}{80}{figure.caption.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Clock Generation Waveforms\relax }}{80}{figure.caption.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Clock Generation Waveforms\relax }}{82}{figure.caption.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Modulator Transient Response\relax }}{83}{figure.caption.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Modulator Output Spectrum For Input = - 4 dBFS\relax }}{83}{figure.caption.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.28}{\ignorespaces First Ring Amplifier Layout\relax }}{84}{figure.caption.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Second Ring Amplifier Layout\relax }}{85}{figure.caption.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Third Ring Amplifier Layout\relax }}{86}{figure.caption.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Fourth Ring Amplifier Layout\relax }}{87}{figure.caption.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.32}{\ignorespaces First Integrator Layout\relax }}{87}{figure.caption.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Second Integrator Layout\relax }}{88}{figure.caption.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.34}{\ignorespaces Third Integrator Layout\relax }}{88}{figure.caption.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.35}{\ignorespaces Sumer Layout\relax }}{89}{figure.caption.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.36}{\ignorespaces Comparator Layout\relax }}{90}{figure.caption.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.37}{\ignorespaces Voltage Ladder Layout\relax }}{90}{figure.caption.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.38}{\ignorespaces Quantizer Layout\relax }}{91}{figure.caption.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.39}{\ignorespaces SC DAC Layout\relax }}{91}{figure.caption.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.40}{\ignorespaces Clock Generation Layout\relax }}{92}{figure.caption.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.41}{\ignorespaces Loop Filter And Quantizer Layout\relax }}{92}{figure.caption.107}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

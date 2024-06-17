@@ -1,0 +1,366 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@PhdThesis{z_trans_phd2,
+  Title                    = {{Design for reuse of current-mode continuous-time SD analog-to-digital converter}},
+  Author                   = {Aboushady, H.},
+  School                   = {University of Paris VI},
+  Year                     = {2002},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.13}
+}
+
+@Conference{SD_ring2,
+  Title                    = {{"A Low-Power Third-Order $\Sigma\triangle$ Modulator Using Ring Amplifiers with Power-Saving Technique"}},
+  Author                   = {{Alexis Gryta} and {Takuma Suguro} and {Hiroki Ishikuro}},
+  Booktitle                = {IEEE International Conference on Electron Devices and Solid-State Circuits (EDSSC)},
+  Year                     = {2016},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.14}
+}
+
+@Conference{mine,
+  Title                    = {{"A Ring Amplifier Architecture for Continuous-Time Applications"}},
+  Author                   = {{Amr S. Ahmed} and {Mohamed M. Aboudina} and {Faisal A. Hussien} and {Ahmed N. Mohieldin}},
+  Booktitle                = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  Year                     = {2018},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.21}
+}
+
+@Conference{SCRZ,
+  Title                    = {{"Design of Continuous-Time $\Sigma\triangle$ Modulators With Dual Switched-Capacitor Return-to-Zero DACs"}},
+  Author                   = {{Amrith Sukumaran} and {Shanthi Pavan}},
+  Booktitle                = {IEEE Journal of Solid-State Circuits},
+  Year                     = {2016},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.23}
+}
+
+@Conference{Moon,
+  Title                    = {{"Ring Amplifiers for Switched Capacitor Circuits"}},
+  Author                   = {{B. Hershberg} and {S. Weaver} and {K. Sobue} and {S. Takeuchi} and {K. Hamashita} and {U. Moon}},
+  Booktitle                = {IEEE J. SolidState Circuits},
+  Year                     = {2012},
+  Month                    = {Dec.},
+  Pages                    = {2928-2942},
+  Volume                   = {47},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@Conference{ELD,
+  Title                    = {{"An 8.5MHz 67.2dB SNDR CTDSM with ELD compensation embedded twin-T SAB and circular TDC-based quantizer in 90nm CMOS"}},
+  Author                   = {{Chan-Hsiang Weng} and {Tzu-An Wei} and {Erkan Alpman}},
+  Booktitle                = {Symposium on VLSI Circuits Digest of Technical Papers},
+  Year                     = {2014},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.23}
+}
+
+@MastersThesis{Botros,
+  Title                    = {{Sigma Delta Analog to Digital Converters For Wireless Receivers}},
+  Author                   = {Botros George},
+  School                   = {Ain Shams University},
+  Year                     = {2001},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.13}
+}
+
+@Conference{FourthOrder,
+  Title                    = {{"A 4.2mW 10MHz BW 74.4dB SNDR fourth-order CT DSM with second-order digital noise coupling utilizing an 8b SAR ADC"}},
+  Author                   = {{Il-Hoon Jang} and {Min-Jae Seo} and {Mi-Young Kim}},
+  Booktitle                = {Symposium on VLSI Circuits},
+  Year                     = {2017},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.23}
+}
+
+@Book{IP_1,
+  Title                    = {{Continuous-time Delta-Sigma Modulators for high-speed A/D Conversion}},
+  Author                   = {{James A. Cherry} and {W. Martin Snelgrove}},
+  Publisher                = {Kluwer Academic Publisher, Dordrecht},
+  Year                     = {1999},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.13}
+}
+
+@Conference{Energy_efficient,
+  Title                    = {{"An energy-efficient 5-MHz to 20-MHz, 12-bit reconfigurable continuous-time $\Sigma\triangle$ modulator for 4G-LTE application"}},
+  Author                   = {{Jing Li} and {Ruiyuan Zhu} and {Ting Yi} and {Bill Liu} and {Zhiliang Hong}},
+  Booktitle                = {IEEE International Symposium on Low Power Electronics and Design (ISLPED)},
+  Year                     = {2013},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.23}
+}
+
+@Conference{Karem,
+  Title                    = {{"An adaptive slew rate and dead zone ring amplifier"}},
+  Author                   = {{K. M. Megawer} and {F. A. Hussien} and {M. M. Aboudina} and {A. N. Mohieldin}},
+  Booktitle                = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  Year                     = {2016},
+  Month                    = {May},
+  Pages                    = {305 - 308},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@Conference{Tony,
+  Title                    = {{"1-1-1-1 MASH Delta-Sigma Modulator With Dynamic Comparator-Based OTAs"}},
+  Author                   = {{K. Yamamoto} and {A.C. Carusone}},
+  Booktitle                = {IEEE J. Solid-State Circuits},
+  Year                     = {2012},
+  Month                    = {Aug.},
+  Pages                    = {1866},
+  Volume                   = {47},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@Conference{ZCBC,
+  Title                    = {{"A Zero-Crossing-Based 8-bit 200 MS/s Pipelined ADC"}},
+  Author                   = {{Lane Brooks} and {Hae-Seung Lee}},
+  Booktitle                = {IEEE JOURNAL OF SOLID-STATE CIRCUITS},
+  Year                     = {2007},
+  Month                    = {Dec.},
+  Volume                   = {42},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@Book{Yao06,
+  Title                    = {Low-Power Low-Voltage Sigma-Delta Modulators in Nanometer CMOS},
+  Author                   = {{Libin Yao}, {Michiel Steyaert} \& {Willy Sansen}},
+  Publisher                = {Springer},
+  Year                     = {2006},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.04.15}
+}
+
+@Conference{Reconfig,
+  Title                    = {{"A Reconfigurable DT $\Sigma\triangle$ Modulator for Multi-Standard 2G/3G/4G Wireless Receivers"}},
+  Author                   = {{Luca Bettini} and {Thomas Christen} and {Thomas Burger} and {Qiuting Huang}},
+  Booktitle                = {IEEE Journal On Emerging And Selected Topics In Circuits And Systems},
+  Year                     = {2015},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.18}
+}
+
+@Book{CT_SD,
+  Title                    = {{Continuous-Time Sigma-Delta A/D Conversion}},
+  Author                   = {{Maurits Ortmanns} and {Friedel Gerfers}},
+  Publisher                = {Springer},
+  Year                     = {2006},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.13}
+}
+
+@Conference{Ortmanns,
+  Title                    = {{"A continuous-time sigma-delta modulator with reduced sensitivity to clock jitter through SCR-feedback"}},
+  Author                   = {{Maurits Ortmanns} and {Friedel Gerfers} and {Yiannos Manoli}},
+  Booktitle                = {IEEE Trans. Circuits Syst. I},
+  Year                     = {2005},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.13}
+}
+
+@Conference{comp2,
+  Title                    = {{"A 1 V, 12-bit wideband continuous-time $\Sigma\triangle$ modulator for UMTS applications"}},
+  Author                   = {{Maurits Ortmanns} and {Friedel Gerfers} and {Yiannos Manoli}},
+  Booktitle                = {International Symposium on in Circuits and Systems (ISCAS)},
+  Year                     = {2003},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.21}
+}
+
+@Conference{karem2,
+  Title                    = {{"A Systematic Design Methodology for Class-AB-Style Ring Amplifiers"}},
+  Author                   = {Megawer, Karim M and Hussien, Faisal A and Aboudina, Mohamed M and Mohieldin, Ahmed N},
+  Booktitle                = {IEEE Transactions on Circuits and Systems II: Express Briefs},
+  Year                     = {2018},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.21}
+}
+
+@MastersThesis{Karim,
+  Title                    = {{Asynchronous Sar-assisted Two-stage Pipeline Analog To Digital Converter Using Ring Amplifier}},
+  Author                   = {Karim Moataz},
+  School                   = {Cairo University},
+  Year                     = {2016},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.14}
+}
+
+@MastersThesis{Islam,
+  Title                    = {{"Design of Continuous Time Sigma Delta Modulator"}},
+  Author                   = {Islam Mostafa},
+  School                   = {Ain Shams University},
+  Year                     = {2015},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.18}
+}
+
+@Conference{DAC_noise,
+  Title                    = {{"Noise Analysis of Continuous-Time Modulators with Switched-Capacitor Feedback DAC"}},
+  Author                   = {{Paulo Silva} and {Kofi Makinwa} and {Johan Huijsing} and {Lucien Breems}},
+  Booktitle                = {ISCAS},
+  Year                     = {2006},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.20}
+}
+
+@Conference{passive_comp,
+  Title                    = {{"Passive Compensation for Improved Settling and Large Signal Stabilization of Ring Amplifiers"}},
+  Author                   = {{Praveen Kumar Venkatachala} and {Spencer Leuenberger} and {Ahmed ElShater} and {Calvin Lee} and {Jason Muhlestein} and {
+Bohui Xiao} and {Michael Oatman} and {UnKu Moon}},
+  Booktitle                = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  Year                     = {2018},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.23}
+}
+
+@Book{Schreier1,
+  Title                    = {{Understanding Delta-Sigma Data Converters}},
+  Author                   = {{Richard Schreier} , {Gabor C. Temes}},
+  Publisher                = {John Wiley \& Sons, Inc.},
+  Year                     = {2005},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.04.15}
+}
+
+@Article{article,
+  Title                    = {The delta-sigma toolbox for Matlab},
+  Author                   = {Schreier, R},
+  Year                     = {2000},
+
+  Month                    = {01},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.18}
+}
+
+@Book{Schreier2,
+  Title                    = {{Understanding Delta-Sigma Data Converters}},
+  Author                   = {{Shanthi Pavan}, {Richard Schreier} \& {Gabor C. Temes}},
+  Publisher                = {John Wiley \& Sons, Inc.},
+  Year                     = {2017},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.04.15}
+}
+
+@PhdThesis{z_trans_phd1,
+  Title                    = {{Continuous-time delta-sigma A/D converters for high speed applications}},
+  Author                   = {Shoaei, O.},
+  School                   = {Carleton University},
+  Year                     = {1992},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.13}
+}
+
+@Conference{SD_Ring,
+  Title                    = {{"Low Power DT Delta-Sigma Modulator With Ring Amplifier SC-Integrator"}},
+  Author                   = {{T. Suguro} and {I. Hiroki}},
+  Booktitle                = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  Year                     = {2016},
+  Month                    = {May},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@PhdThesis{phd_comparison,
+  Title                    = {{"a Comparison Of Continuous-time And Discrete-time Sigma-delta Modulators"}},
+  Author                   = {N. Wongkomet},
+  School                   = {Department of Electrical Engineering and Computer Sciences, University of California},
+  Year                     = {1995},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.21}
+}
+
+@Conference{Flynn,
+  Title                    = {{"A 100 MS/s 10.5 bit 2.46 mW comparator-less pipeline ADC using self-biased ring amplifiers"}},
+  Author                   = {{Y. Lim} and {M. P. Flynn}},
+  Booktitle                = {IEEE J. Solid-State Circuits},
+  Year                     = {2015},
+  Month                    = {Oct.},
+  Pages                    = {2331 - 2341},
+  Volume                   = {50},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@Conference{flexible,
+  Title                    = {{"A Flexible Continuous-Time $\Sigma\triangle$ ADC With Programmable Bandwidth Supporting Low-Pass and Complex Bandpass Architectures"}},
+  Author                   = {{Yang Xu} and {Xinwang Zhang} and {Zhihua Wang } and {Baoyong Chi}},
+  Booktitle                = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  Year                     = {2016},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.23}
+}
+
+@Conference{Flynn2,
+  Title                    = {{"A 1 mW 71.5 dB SNDR 50 MS/s 13 bit Fully Differential Ring Amplifier Base SAR-Assisted Pipeline ADC"}},
+  Author                   = {{Yong Lim} and {Michael P. Flynn}},
+  Booktitle                = {IEEE JOURNAL OF SOLID-STATE CIRCUITS},
+  Year                     = {2015},
+  Month                    = {Dec.},
+  Volume                   = {50},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.09}
+}
+
+@Conference{Inverter,
+  Title                    = {{"Low Voltage, Low Power, Inverter-Based Switched-Capacitor Delta-Sigma Modulator"}},
+  Author                   = {{Youngcheol Chae} and {Gunhee Han}},
+  Booktitle                = {IEEE JOURNAL OF SOLID-STATE CIRCUITS},
+  Year                     = {2009},
+  Month                    = {Feb.},
+  Volume                   = {44},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.02}
+}
+
+@Conference{ring_process,
+  Title                    = {{An improved ring amplifier with process- and supply voltage-insensitive dead-zone}},
+  Author                   = {{Yuefeng Cao} and {Yongzhen Chen} and {Tianli Zhang} and {Fan Ye} and {Junyan Ren}},
+  Booktitle                = {IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)},
+  Year                     = {2017},
+
+  Owner                    = {Amr},
+  Timestamp                = {2018.05.14}
+}
+
+@comment{jabref-meta: databaseType:bibtex;}
+

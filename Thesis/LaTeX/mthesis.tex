@@ -1,0 +1,165 @@
+%------------------<Beginning of Master LaTeX Thesis File>---------------
+% mthesis.tex
+%------------------------------------------------------------------------
+\documentclass{cufethesis}
+
+
+%-------------------------Personal Packages---------------------------
+
+
+\usepackage[flushleft]{threeparttable}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{pgfplots}
+\usepackage{float}
+\usepackage[center,font=small]{caption}
+\usepackage{tikz}
+\usetikzlibrary{fit,shapes.geometric}
+\usetikzlibrary{plotmarks}
+\usepackage{mathdots}
+\usepackage{etex}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{nomencl}
+\usepackage{pdfpages}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage[graphicx]{realboxes}%
+\usepackage{emptypage}
+%\usepackage[inner=35.4mm,outer=25.4mm]{geometry}
+
+%\usepackage{gensymb}
+
+\usepackage[style=ieee,
+sorting=none,
+backend=biber,
+defernumbers=true,
+isbn=false,
+doi=false,
+dashed=false,
+bibencoding=cp1252,
+citestyle=numeric-comp]{biblatex}
+\addbibresource{thesis.bib}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{array}
+\usepackage{paralist}
+\usepackage{mathrsfs}
+\def\Laplace#1{\mathscr{L}^{-1}}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+\renewcommand{\baselinestretch}{1}
+
+\usepackage[normalem]{ulem}
+\usepackage{color,soul}
+
+% TikZ solution
+\newcommand\circletext[1]
+{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1.2pt] (char) {#1};}} 
+
+
+%-------------------------Personal Information---------------------------
+
+\EngineerName{Hussein Sobhy El-Shamy}
+\BirthDate{05}{12}{2000}
+
+\Nationality{Egyptian}
+\EMail{hussein30981883@f-eng.tanta.edu.eg}
+\Phone{+201064490820}
+\Address{El-Gomhoreya, Basioun, Gharbia Governorate, 31714}
+\shoshop{\includegraphics[width=3.4cm]{Biography/Shosho.jpg}}
+\brishap{\includegraphics[width=3.4cm]{Biography/Brisha.jpg}}
+\emanp{\includegraphics[width=3.4cm]{Biography/Eman.jpg}}
+\hatemp{\includegraphics[width=3.4cm]{Biography/Hatem.jpg}}
+\hossamp{\includegraphics[width=3.4cm]{Biography/hossam.jpg}}
+\husseinp{\includegraphics[width=3.4cm]{Biography/photo_2023-06-20_21-04-01.jpg}}
+\helalp{\includegraphics[width=3.4cm]{Biography/Helal.jpg}}
+\shabanp{\includegraphics[width=3.4cm]{Biography/Shaban.jpg}}
+\shalabyp{\includegraphics[width=3.4cm]{Biography/Shalaby.jpg}}
+
+
+% Program of Study Information
+
+\RegistrationDate{01}{09}{2018}
+\AwardingDate{01}{09}{2023}
+
+
+
+%----------------------------Thesis Information---------------------------
+
+\MainSupervisor{Dr.Hussein El-Taibee Sleem}{Tanta University}
+
+\ExternalExaminer{Dr./Prof. Dr. Ext. Examiner}{Affiliation}{Faculty}{University}
+\InternalExaminer{Dr./Prof. Dr. Int. Examiner}
+\ThesisTitle{Meeting 5G Reliability Requirements in Cell Outage Compensation (COC) in Self-Organizing Networks (SONs) using Hardware Acceleration}
+
+\ThesisKeywords{Self-Organzing Networks; Self-Healing; Cell Outage Compensation; Q-Learning; Hardware Acceleration; FPGA}
+
+\ThesisSummary{Accelerating the Cell Outage Compensation (COC) algorithm in Self-Organizing Networks(SONs) through AI-Hardware Acceleration to enhance 5G network reliability and support emerging technologies such as autonomous driving}
+
+
+
+\SubmissionDate{mm}{yyyy}
+
+
+%--------------------------------------------------------------------------
+
+
+\begin{document}
+% Front Matter
+\Preamble{Disclaimer}{FrontMatter/Disclaimer}
+%%\Preamble{Dedication}{FrontMatter/Dedication}
+\Preamble{Acknowledgements}{FrontMatter/Acknowledgements}
+\TableOfContents
+\ListOfTables
+\ListOfFigures
+\Preamble{List of Symbols and Abbreviations}{FrontMatter/Symbols}
+%%\Preamble{List of Publications}{FrontMatter/Publications}
+\Preamble{Abstract}{FrontMatter/Abstract}
+
+\newgeometry{inner=35.4mm,outer=25.4mm,top=25.4mm,bottom=25.4mm}
+
+% Main Matter
+% to comply with thesis guidelines
+% each chapter starts on the right (odd numbered page)
+\Chapter{Introduction}{MainMatter/Chapter1}\label{ch_intro}
+\Chapter{A New Era for Network Management}{MainMatter/Chapter2}\label{ch2label}
+\Chapter{Understanding Cell Outage Compensation Technique}{MainMatter/Chapter3}\label{ch3label}
+\Chapter{Reinforcement Learning: A Tool for End-to-End Cognition in Network Management Automation}{MainMatter/Chapter4}\label{ch4label}
+\Chapter{Modelling Cell Outage Compensation (COC) Scenario Using MATLAB}{MainMatter/Chapter5}\label{ch5label}
+\Chapter{Design and Implementation of FPGA-Based Q-Learning Hardware for COC}{MainMatter/Chapter6}\label{ch6label}
+
+\Chapter{Discussion and Conclusion}{MainMatter/Chapter7}\label{ch_conc}
+
+
+% References
+\chapter*{References\label{ch_references}}
+\addcontentsline{toc}{chapter}{\nameref{ch_references}}
+\printbibliography[heading=none, resetnumbers=true]
+
+% Back Matter
+\begin{appendices}
+\Appendix{Appendix A Title}{BackMatter/AppendixA}
+%\Appendix{Appendix B Title}{BackMatter/AppendixB}
+\end{appendices}
+
+% Arabic covers template is uploaded to this project as word file
+% it could be found in Arabic folder
+% edit the covers with your info and save it as PDF file
+% upload your PDF file to Arabic folder
+% add your PDF file in the nect command
+\includepdf[pages=-]{Arabic/Arabic_Cover.pdf}
+
+\end{document}
+%--------------------------<End of File>---------------------------------
