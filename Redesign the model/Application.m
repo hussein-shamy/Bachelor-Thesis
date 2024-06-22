@@ -11,9 +11,9 @@ OutagedSite = BaseStation(8);
 OutagedSite.location = [40.7128, -74.0060]; % Example location (New York City)
 
 % Create 3 conventional sectors
-SectorA = Cell(1);
-SectorB = Cell(2);
-SectorC = Cell(3);
+SectorA = Cell(1); SectorA.azimuth = 30;
+SectorB = Cell(2); SectorB.azimuth = 180;
+SectorC = Cell(3); SectorC.azimuth = 360;
 
 % Add these sectors to all compensating base stations
 for i = 1:numel(CompensatingSites)
@@ -31,9 +31,13 @@ for i = 1:numStations
 end
 
 % Assign random locations to mobile stations around the outaged base station
-mobileStations = RadioPlanning.allocateMobileStationsFromCenter(mobileStations, OutagedSite);
+mobileStations = RadioPlanning.allocateMobileStationsFromCenter(mobileStations, OutagedSite,1.5);
 
 % Allocate neighboring sites around the center location of the outaged base station
-CompensatingSites = RadioPlanning.allocateNeighbouringSitesFromCenter(OutagedSite, CompensatingSites);
+CompensatingSites = RadioPlanning.allocateNeighbouringSitesFromCenter(OutagedSite, CompensatingSites, 1.5);
 
+CompensatingSites(1) = RadioPlanning.calculateMaxRadiationDirection(CompensatingSites(1), 1.5);
+
+
+RX_Power = MobileWirelessChannel.calculateReceivedPower(CompensatingSites(1), mobileStations, 'urban');
 

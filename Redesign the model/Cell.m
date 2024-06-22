@@ -4,6 +4,7 @@ classdef Cell
         id                        % Unique identifier for the cell
         power                     % Signal strength of the cell
         tilt
+        azimuth
         maxPowerLocation
         frequecny
         is_active                 % Boolean flag indicating if the cell is in outage
@@ -27,15 +28,6 @@ classdef Cell
             fprintf('Cell ID %d: Signal strength adjusted to %f\n', obj.id, obj.power);
         end
         
-        % Method to reroute traffic of the cell
-        function obj = reroute_traffic(obj)
-            if obj.is_active
-                obj.capacity = 0;
-                fprintf('Cell ID %d: Traffic rerouted due to outage\n', obj.id);
-            else
-                fprintf('Cell ID %d: No outage, traffic rerouting not required\n', obj.id);
-            end
-        end
         
         % Method to display cell details
         function displayCellDetails(obj)
