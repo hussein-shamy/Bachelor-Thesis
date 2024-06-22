@@ -1,0 +1,41 @@
+classdef RadioPlanning
+
+    properties
+        
+    end
+
+    methods (Static)
+
+        function updatedStations = assignRandomLocations(mobileStations, centerBaseStation)
+            % Function to assign random locations to mobile stations around a center base station
+            % Returns the updated mobileStations array with locations assigned
+
+            % Extract center base station location
+            centerLocation = centerBaseStation.location;
+
+            % Generate random offsets for latitude and longitude (for example, within ±0.01 degrees)
+            maxOffset = 0.01;
+            for i = 1:length(mobileStations)
+                % Generate random offsets
+                offsetLat = (rand() * 2 - 1) * maxOffset;
+                offsetLon = (rand() * 2 - 1) * maxOffset;
+
+                % Calculate random location around the center base station
+                randomLocation = centerLocation + [offsetLat, offsetLon];
+
+                % Assign the random location to the mobile station
+                mobileStations(i).location = randomLocation;
+            end
+
+            % Return the updated mobileStations array
+            updatedStations = mobileStations;
+        end
+
+        function
+
+
+        end
+
+
+    end
+end

@@ -11,11 +11,13 @@ classdef Cell
     
     methods
         % Constructor method to create a new Cell object
-        function obj = Cell(id, signal_strength, is_outage)
+        function obj = Cell(id)
             if nargin > 0
                 obj.id = id;
-                obj.power = signal_strength;
-                obj.is_active = is_outage;
+                obj.power = 40;
+                obj.tilt = 90;
+                obj.frequecny = 3.5;
+                obj.is_active = 1;
             end
         end
         

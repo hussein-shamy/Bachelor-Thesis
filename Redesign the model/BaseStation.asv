@@ -19,9 +19,9 @@ classdef BaseStation
         % Constructor method to create a new BaseStation object
         function obj = BaseStation(id)
             if nargin > 0
-                obj.id = id;
-                obj.location = [0,0];
-                obj.height = 50;
+                obj.id = "None";
+                obj.location = location;
+                obj.height = height;
                 obj.cellList = {}; % Initialize cell list as empty cell array
             end
         end

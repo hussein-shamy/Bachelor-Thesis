@@ -84,9 +84,9 @@ classdef MobileStation
         function displayUserDetails(obj)
             fprintf('User ID: %d\n', obj.id);
             fprintf('Location: [%f, %f]\n', obj.location(1), obj.location(2));
-            fprintf('Mobile Station Antenna Height: %f meters\n', obj.antennaHeight);
-            fprintf('Receiver Antenna Gain: %f dB\n', obj.antennaGain);
-            fprintf('UE Sensitivity: %f dBm\n', obj.sensitivity);
+            fprintf('Mobile Station Antenna Height: %f meters\n', obj.ANTENNA_HEIGHT);
+            fprintf('Receiver Antenna Gain: %f dB\n', obj.ANTENNA_GAIN);
+            fprintf('UE Sensitivity: %f dBm\n', obj.SENSITIVITY);
         end
 
     end

@@ -1,0 +1,19 @@
+clc;
+clear;
+
+% Create the compensating basestations from id 1 to 6
+for i = 1:6
+    CompensatingSites(1:i) = BaseStation(i);
+end
+
+% Create the outaged basestation with id = 8
+OutagedSite = BaseStation(8);
+
+% Create 3 conventional sector
+SectorA = Cell(1);
+SectorB = Cell(2);
+SectorC = Cell(3);
+
+% Add these sectors to all Ba
+CompensatingSites(1,4) = CompensatingSites(1,4).addCell([SectorA,SectorB,SectorC]);
+
