@@ -26,12 +26,17 @@ classdef MobileStation
         end
 
         function obj = getReadyConnectedBS(obj)
-            NumofCells = numel(obj.CellsInfo);
-            for i = 1 :NumofCells
-                if (obj.CellsInfo(i) > obj.SENSITIVITY)
-                    obj.numReadyConnectedBS = obj.numReadyConnectedBS + 1;
-                end
+            
+            if (obj.CellsInfo(i)>obj.SENSITIVITY)
+                    obj.numReadyConnectedBS = 
+
             end
+                
+                
+
+            
+
+
         end
 
         function obj = cellSelection(obj)

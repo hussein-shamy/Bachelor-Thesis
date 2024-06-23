@@ -8,7 +8,7 @@ end
 
 % Create the outaged base station with ID = 8 and set its location
 OutagedSite = BaseStation(8);
-OutagedSite.location = [40.7128, -74.0060]; % Example location (New York City)
+OutagedSite.location = [30.791, 30.997]; % Example location (New York City)
 
 % Create 3 conventional sectors
 SectorA = Cell(1); SectorA.azimuth = 30;
@@ -31,13 +31,30 @@ for i = 1:numStations
 end
 
 % Assign random locations to mobile stations around the outaged base station
-mobileStations = RadioPlanning.allocateMobileStationsFromCenter(mobileStations, OutagedSite,1.5);
+mobileStations = RadioPlanning.allocateMobileStationsFromCenter(mobileStations, OutagedSite,0.5);
 
 % Allocate neighboring sites around the center location of the outaged base station
-CompensatingSites = RadioPlanning.allocateNeighbouringSitesFromCenter(OutagedSite, CompensatingSites, 1.5);
+CompensatingSites = RadioPlanning.allocateNeighbouringSitesFromCenter(OutagedSite, CompensatingSites, 0.5);
 
-CompensatingSites(1) = RadioPlanning.calculateMaxRadiationDirection(CompensatingSites(1), 1.5);
+% Caculate the maximum radiation direction for each cell
+for i = 1:6
+CompensatingSites(i) = RadioPlanning.calculateMaxRadiationDirection(CompensatingSites(i), 1.5);
+end
 
+% Calculate the recevied power for each mobile station form each compensating cell
+RX_Power = zeros(numStations,18);
+for i = 1:3:18
+j = 1;
+RX_Power(:,i:i+2) = MobileWirelessChannel.calculateReceivedPower(CompensatingSites(j), mobileStations, 'urban');
+j=j+1;
+end
 
-RX_Power = MobileWirelessChannel.calculateReceivedPower(CompensatingSites(1), mobileStations, 'urban');
+% assign the received power list from compensating cell to each user
+for i = 1:numStations
+    mobileStations(i).CellsInfo = RX_Power(i,:);
+    mobileStations(i) = mobileStations(i).cellSelection();
+    mobileStations(i) = mobileStations(i).getReadyConnectedBS();
+end
+
+Visualization.visualize(CompensatingSites,mobileStations);
 

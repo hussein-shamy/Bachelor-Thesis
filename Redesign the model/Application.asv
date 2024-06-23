@@ -36,8 +36,25 @@ mobileStations = RadioPlanning.allocateMobileStationsFromCenter(mobileStations, 
 % Allocate neighboring sites around the center location of the outaged base station
 CompensatingSites = RadioPlanning.allocateNeighbouringSitesFromCenter(OutagedSite, CompensatingSites, 1.5);
 
-calculateMaxRadiationDirection(site, isd);
+% Caculate the maximum radiation direction for each cell
+for i = 1:6
+CompensatingSites(i) = RadioPlanning.calculateMaxRadiationDirection(CompensatingSites(i), 1.5);
+end
+
+% Calculate the recevied power for each mobile station form each compensating cell
+RX_Power = zeros(numStations,18);
+for i = 1:3:18
+j = 1;
+RX_Power(:,i:i+2) = MobileWirelessChannel.calculateReceivedPower(CompensatingSites(j), mobileStations, 'urban');
+j=j+1;
+end
+
+% assign the received power list from compensating cell to each user
+for i = 1:numStations
+    mobileStations(i).CellsInfo = RX_Power(i,:);
+end
 
 
-% RX_Power = MobileWirelessChannel.calculateReceivedPower(OutagedSite, mobileStations, 'urban');
+
+%[maxValues, maxIndices] = max(RX_Power, [], 2);
 

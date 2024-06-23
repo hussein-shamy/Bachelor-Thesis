@@ -64,17 +64,5 @@ classdef BaseStation
                 end
             end
         end
-        
-        % Method to print details of all cells associated with the base station
-        function printCellDetails(obj)
-            fprintf('Cells associated with Base Station %s:\n', obj.id);
-            for i = 1:numel(obj.cellList)
-                fprintf('Cell ID: %d\n', obj.cellList{i}.id);
-                fprintf('Signal Strength: %f\n', obj.cellList{i}.power);
-                fprintf('Tilt: %f\n', obj.cellList{i}.tilt);
-                fprintf('Is Outage: %d\n', obj.cellList{i}.is_active);
-                fprintf('\n');
-            end
-        end
     end
 end
